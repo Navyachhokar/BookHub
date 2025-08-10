@@ -94,3 +94,68 @@ button:hover{
     padding: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-content h2 {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.info-content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.info-content .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 200px;
+    height: 200px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid rgb(38, 82, 246);
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+/* .quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quote-content {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+
+} */
