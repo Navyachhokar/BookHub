@@ -83,7 +83,7 @@ button{
     transition: background-color 0.3s ease;    
 }
 
-button:hover{
+.hero-content button:hover{
     transform: scale(1.05);
     background-color: rgb(38, 82, 246);
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -169,4 +169,53 @@ button:hover{
     align-self: flex-end;
     font-size: 15px;
     margin-top: 10px;
+}
+.cta-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+}
+
+.cta-content{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 50px ;
+    
+}
+.cta-2box{
+    padding: 10px;
+    margin: 10px;
+}
+
+.cta-2box h2{
+     color:#F9FAF8;
+}
+
+.cta-2box p{
+    color:#E5E7EB;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.subscribe-button{
+    border: 1.5px solid white;
+    margin: 10px;
+}
+.subscribe-button:hover{
+    background-color: rgb(38, 82, 246);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+.input input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
