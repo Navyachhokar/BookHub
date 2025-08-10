@@ -1,4 +1,4 @@
-# BookHub Landing Page
+# BookHub 
 
 A simple landing page for a fictional Library Hub, created using HTML and CSS for practice.
 This project was built to improve layout skills and practice working with Flexbox and basic responsive design concepts (if you make it responsive later).
@@ -17,14 +17,11 @@ This project was built to improve layout skills and practice working with Flexbo
 
 # File Structure
 
-.
-├── index.html
-├── styles.css
-├── images/
-│   └── library-image.jpg
-└── README.md
+<pre> ``` BookHub/ ├── index.html ├── styles.css ├── images/ │ └── library-image.jpg └── README.md ``` </pre> 
 
 # Live Demo
+
+[View the live site](https://navyachhokar.github.io/BookHub/)
 
 # Image Credit
 
