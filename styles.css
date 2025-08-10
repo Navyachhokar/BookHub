@@ -100,6 +100,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .about-content {
@@ -145,7 +146,7 @@ button:hover{
     border-radius: 10px;
 }
 
-/* .quote{
+.quote{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,6 +157,16 @@ button:hover{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    padding: 50px 20px;
-
-} */
+    padding: 100px 20px;
+}
+.quote-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: #1f2937;
+}
+.quote-content .quote-author {
+    align-self: flex-end;
+    font-size: 15px;
+    margin-top: 10px;
+}
