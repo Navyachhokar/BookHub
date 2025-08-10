@@ -17,7 +17,13 @@ This project was built to improve layout skills and practice working with Flexbo
 
 # File Structure
 
-<pre> ``` BookHub/ ├── index.html ├── styles.css ├── images/ │ └── library-image.jpg └── README.md ``` </pre> 
+<pre> ``` BookHub/ 
+├── index.html 
+├── styles.css 
+├── images/ 
+│ └── library-image.jpg 
+└── README.md 
+``` </pre> 
 
 # Live Demo
 
